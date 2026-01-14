@@ -55,9 +55,9 @@ int main() {
     } while (escolha == 1);
 
     // Exibição dos territórios cadastrados
-    printf("###Territórios cadastrados:###\n\n");
+    printf("\n\n### MAPA DO MUNDO ATUAL ###\n\n");
     for (int i = 0; i < numTerritorios; i++) {
-        printf("Território %d:\n, Nome: %s\n, Cor: %s\n, Tropas: %d\n\n\n", 
+        printf("Território %d:\n Nome: %s\n Cor: %s\n Tropas: %d\n\n", 
                i + 1, 
                territorios[i].nome, 
                territorios[i].cor,
