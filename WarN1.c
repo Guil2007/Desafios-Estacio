@@ -26,7 +26,7 @@ int main() {
     int numTerritorios = 0;
     int escolha;
 
-    printf("Bem-vindo ao WarNovato!\n");
+    printf("Bem-vindo ao WarNovato!\n\n\n");
 
     // Cadastro de territórios
     do {
@@ -55,12 +55,12 @@ int main() {
     } while (escolha == 1);
 
     // Exibição dos territórios cadastrados
-    printf("\nTerritórios cadastrados:\n");
+    printf("###Territórios cadastrados:###\n\n");
     for (int i = 0; i < numTerritorios; i++) {
-        printf("Território %d: Nome: %s, Cor: %s, Tropas: %d\n", 
+        printf("Território %d:\n, Nome: %s\n, Cor: %s\n, Tropas: %d\n\n\n", 
                i + 1, 
                territorios[i].nome, 
-               territorios[i].cor, 
+               territorios[i].cor,
                territorios[i].tropas);
     }
 
